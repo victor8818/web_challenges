@@ -1,0 +1,52 @@
+.grid {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: black;
+}
+
+button[type="submit"] {
+  display: inline;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0 10px;
+  margin: 40px;
+  size: 20px;
+  color: white;
+  background-color: cornflowerblue;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+#colorBtn {
+  display: inline-block;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0 10px;
+  margin: 40px;
+  size: 20px;
+  background-color: aquamarine;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+}
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button-row {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
