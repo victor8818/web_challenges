@@ -1,0 +1,107 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sender-column {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+  font-size: 1.1em;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+  line-height: 1.5;
+}
+
+.btn {
+  text-transform: capitalize;
+  border: 5px;
+  border-color: black;
+}
+
+.dark-mode {
+  background-color: #a6a6a6;
+  color: #fdfdfd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.choose {
+  display: block;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0 10px;
+  margin: 40px;
+  size: 20px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.choose:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+#reset, #dark {
+  text-transform: capitalize;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0 10px;
+  margin: 40px;
+  size: 20px;
+}
+#dark {
+  background-color: rgba(0, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#reset {
+  background-color: rgba(0, 220, 220, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
